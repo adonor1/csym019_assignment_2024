@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri";
+    overflow-x: hidden;
+  }
+  
+  main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin: 20px;
+    width: 100%;
+  }
+  
+  thead {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pl_top_scorers {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    max-width: 1280px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  tr {
+    width: 100%;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+    padding: 8px 15px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td {
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    grid-column: span 1;
+  }
+  
+  .name {
+    grid-column: span 4;
+    text-align: left;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .name p {
+    display: block;
+    font-weight: lighter;
+  }
+  
