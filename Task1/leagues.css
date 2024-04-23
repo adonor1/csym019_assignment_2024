@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri";
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    margin: 20px;
+    width: 100%;
+    font-size: 35px;
+  }
+  
+  main.league_table {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icon {
+    color: white;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .win {
+    background: #148a00;
+  }
+  .loss {
+    background: #e51854;
+  }
+  .drawn {
+    background: #545658;
+  }
+  
+  thead {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pl-table {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    max-width: 1280px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  tr {
+    width: 100%;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: repeat(17, minmax(0, 1fr));
+    padding: 14px 15px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(5) {
+    border-top: 1px solid #0d0d0d;
+    border-bottom: 1px solid #0d0d0d;
+  }
+  
+  td {
+    font-weight: normal;
+    grid-column: span 2;
+    text-align: center;
+    font-size: 22px;
+    grid-column: span 1;
+  }
+  
+  .form {
+    grid-column: span 3;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 22px;
+    padding: 0 20px;
+    font-weight: light;
+  }
+  .team {
+    grid-column: span 5;
+    text-align: left;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .position_system {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .position_system h3 {
+    font-weight: 600;
+  }
+  .position_system ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    list-style-type: disc;
+  }
