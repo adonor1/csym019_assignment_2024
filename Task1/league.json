@@ -1,0 +1,124 @@
+{
+    "top_scorers": [
+      {
+        "player_name": "Erling Haaland",
+        "team": "Manchester City",
+        "goals": 25,
+        "assists": 5
+      },
+      {
+        "player_name": "Cole Palmer",
+        "team": "Chelsea",
+        "goals": 21,
+        "assists": 10
+      },
+      {
+        "player_name": "Alexander Isak",
+        "team": "Newcastle United",
+        "goals": 20,
+        "assists": 1
+      },
+      {
+        "player_name": "Ollie Watkins",
+        "team": "Aston Villa",
+        "goals": 19,
+        "assists": 13
+      },
+      {
+        "player_name": "Dominic Solanke",
+        "team": "Bournemouth",
+        "goals": 19,
+        "assists": 3
+      },
+      {
+        "player_name": "Mohamed Salah",
+        "team": "Liverpool",
+        "goals": 18,
+        "assists": 10
+      },
+      {
+        "player_name": "Son Heung-min",
+        "team": "Tottenham Hotspur",
+        "goals": 17,
+        "assists": 9
+      },
+      {
+        "player_name": "Phil Foden",
+        "team": "Manchester City",
+        "goals": 17,
+        "assists": 8
+      },
+      {
+        "player_name": "Jarrod Bowen",
+        "team": "West Ham",
+        "goals": 16,
+        "assists": 6
+      },
+      {
+        "player_name": "Bukayo Saka",
+        "team": "Arsenal",
+        "goals": 16,
+        "assists": 9
+      },
+      {
+        "player_name": "Nicolas Jackson",
+        "team": "Chelsea",
+        "goals": 14,
+        "assists": 0
+      },
+      {
+        "player_name": "Jean-Philippe Mateta",
+        "team": "Crystal Palace",
+        "goals": 13,
+        "assists": 2
+      },
+      {
+        "player_name": "Kai Havertz",
+        "team": "Arsenal",
+        "goals": 12,
+        "assists": 1
+      },
+      {
+        "player_name": "Hee-chan Hwang",
+        "team": "Wolverhampton Wanderers",
+        "goals": 12,
+        "assists": 1
+      },
+      {
+        "player_name": "Matheus Cunha",
+        "team": "Wolverhampton Wanderers",
+        "goals": 12,
+        "assists": 1
+      },
+      {
+        "player_name": "Leandro Trossard",
+        "team": "Arsenal",
+        "goals": 12,
+        "assists": 0
+      },
+      {
+        "player_name": "Chris Wood",
+        "team": "Nottingham Forest",
+        "goals": 12,
+        "assists": 0
+      },
+      {
+        "player_name": "Julián Álvarez",
+        "team": "Manchester City",
+        "goals": 11,
+        "assists": 2
+      },
+      {
+        "player_name": "Darwin Núñez",
+        "team": "Liverpool",
+        "goals": 11,
+        "assists": 0
+      },
+      {
+        "player_name": "Richarlison",
+        "team": "Tottenham Hotspur",
+        "goals": 11,
+        "assists": 0
+      }
+    ],
+}
