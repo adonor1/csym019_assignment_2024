@@ -1,129 +1,198 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Calibri";
-    overflow-x: hidden;
-  }
-  
-  h1 {
-    margin: 20px;
-    width: 100%;
-    font-size: 35px;
-  }
-  
-  main.league_table {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .icon {
-    color: white;
-    height: 20px;
-    width: 20px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .win {
-    background: #148a00;
-  }
-  .loss {
-    background: #e51854;
-  }
-  .drawn {
-    background: #545658;
-  }
-  
-  thead {
-    background: #ddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .pl-table {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-    max-width: 1280px;
-    border-collapse: collapse;
-    display: flex;
-    flex-direction: column;
-  }
-  tbody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  tr {
-    width: 100%;
-    font-size: 17px;
-    display: grid;
-    grid-template-columns: repeat(17, minmax(0, 1fr));
-    padding: 14px 15px;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tr:nth-child(5) {
-    border-top: 1px solid #0d0d0d;
-    border-bottom: 1px solid #0d0d0d;
-  }
-  
-  td {
-    font-weight: normal;
-    grid-column: span 2;
-    text-align: center;
-    font-size: 22px;
-    grid-column: span 1;
-  }
-  
-  .form {
-    grid-column: span 3;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-    font-size: 22px;
-    padding: 0 20px;
-    font-weight: light;
-  }
-  .team {
-    grid-column: span 5;
-    text-align: left;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-    font-size: 22px;
-    font-weight: bold;
-  }
-  img {
-    width: 25px;
-    height: 25px;
-    flex-shrink: 0;
-  }
-  .position_system {
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-  }
-  .position_system h3 {
-    font-weight: 600;
-  }
-  .position_system ul li {
-    margin-top: 5px;
-    margin-left: 10px;
-    list-style-type: disc;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: yellow;
+}
+
+.title-bar {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.title-bar h1 {
+  color: black;
+  font-size: 35px;
+  margin: 0;
+}
+
+nav {
+  background-color: #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+h1 {
+  margin: 20px;
+  width: 100%;
+  font-size: 35px;
+}
+
+main.league_table {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pl-table,
+.fixtures-table {
+  width: 90%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pl-table th,
+.fixtures-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.pl-table th,
+.pl-table td,
+.fixtures-table th,
+.fixtures-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.pl-table th.team,
+.pl-table td.team,
+.fixtures-table th.team,
+.fixtures-table td.team {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pl-table th.form,
+.pl-table td.form {
+  text-align: left;
+  padding-left: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.position_system {
+  width: 90%;
+  margin: 20px 0;
+}
+
+.position_system h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.position_system ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.position_system ul li {
+  margin-top: 5px;
+}
+
+/* Style for win (W), loss (L), and draw (D) indicators */
+.form-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.form-box.win {
+  background-color: green;
+}
+
+.form-box.loss {
+  background-color: blue;
+}
+
+.form-box.draw {
+  background-color: grey;
+}
+
+/* Styles for the results table */
+.fixtures-table {
+  width: 100%;
+  max-width: 1280px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.fixtures-table thead {
+  background: #ddd;
+}
+
+.fixtures-table th,
+.fixtures-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.fixtures-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.month {
+  margin-bottom: 30px;
+}
+
+.month h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}

@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="league.css" />
-
-    <title>PL Top Scorers Table</title>
-  </head>
-  <body>
-    <main class="top_scorers">
-        <h1>Premier League Table</h1>
-      <table class="pl_top_scorers">
-        <thead>
-          <tr>
-            <th></th>
-            <th class="name">Name</th>
-            <th>Goals</th>
-            <th>Assists</th>
-            <th>Played</th>
-            <th>Goals per 90</th>
-            <th>Mins per Goal</th>
-            <th>Total Shots</th>
-            <th>Goal Conversion</th>
-            <th>Shot Accuracy</th>
-          </tr>
-        </thead>
-        <tbody id="top_scorers_table"></tbody>
-      </table>
-    </main>
-    <script src="league.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="league.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Top Scorers</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+</head>
+<body>
+  <header>
+    <div class="title-bar">
+      <h1>BBC Sport</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="league.html">League Table</a></li>
+        <li><a href="topscorers.html">Top Scorers</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="top_scorers_table">
+    <h1 id="top-scorers">Top Scorers</h1>
+    <table class="pl-table">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th class="name">Player Name</th>
+          <th>Team</th>
+          <th>Goals</th>
+        </tr>
+      </thead>
+      <tbody id="top_scorers_table">
+        <!-- Table body content here -->
+      </tbody>
+    </table>
+  </main>
+  <script src="league.js"></script>
+</body>
 </html>

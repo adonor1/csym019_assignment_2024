@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: yellow;
+}
+
+.title-bar {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-bar h1 {
+    color: black;
+    font-size: 35px;
+    margin: 0;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+h1 {
+    margin: 20px;
+    width: 100%;
+    font-size: 35px;
+}
+
+main.league_table {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+thead {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pl-table {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    max-width: 1280px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 50px; /* Adjusted grid template */
+    padding: 14px 15px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td, th {
+    font-weight: normal;
+    text-align: center;
+    font-size: 22px;
+}
+
+th {
+    font-weight: bold;
+    background: #f4f4f4;
+}
+
+.name {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.team {
+    text-align: left;
+    padding-left: 10px;
+}
+
+form {
+    grid-column: span 3;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 22px;
+    padding: 0 20px;
+    font-weight: light;
+}
+
+.position_system {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.position_system h3 {
+    font-weight: 600;
+}
+
+.position_system ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    list-style-type: disc;
+}

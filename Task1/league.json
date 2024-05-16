@@ -1,1167 +1,878 @@
 {
-    "top_scorers": [
-      {
-        "player_name": "Erling Haaland",
-        "team": "Manchester City",
-        "goals": 25,
-        "assists": 5
-      },
-      {
-        "player_name": "Cole Palmer",
-        "team": "Chelsea",
-        "goals": 21,
-        "assists": 10
-      },
-      {
-        "player_name": "Alexander Isak",
-        "team": "Newcastle United",
-        "goals": 20,
-        "assists": 1
-      },
-      {
-        "player_name": "Ollie Watkins",
-        "team": "Aston Villa",
-        "goals": 19,
-        "assists": 13
-      },
-      {
-        "player_name": "Dominic Solanke",
-        "team": "Bournemouth",
-        "goals": 19,
-        "assists": 3
-      },
-      {
-        "player_name": "Mohamed Salah",
-        "team": "Liverpool",
-        "goals": 18,
-        "assists": 10
-      },
-      {
-        "player_name": "Son Heung-min",
-        "team": "Tottenham Hotspur",
-        "goals": 17,
-        "assists": 9
-      },
-      {
-        "player_name": "Phil Foden",
-        "team": "Manchester City",
-        "goals": 17,
-        "assists": 8
-      },
-      {
-        "player_name": "Jarrod Bowen",
-        "team": "West Ham",
-        "goals": 16,
-        "assists": 6
-      },
-      {
-        "player_name": "Bukayo Saka",
-        "team": "Arsenal",
-        "goals": 16,
-        "assists": 9
-      },
-      {
-        "player_name": "Nicolas Jackson",
-        "team": "Chelsea",
-        "goals": 14,
-        "assists": 0
-      },
-      {
-        "player_name": "Jean-Philippe Mateta",
-        "team": "Crystal Palace",
-        "goals": 13,
-        "assists": 2
-      },
-      {
-        "player_name": "Kai Havertz",
-        "team": "Arsenal",
-        "goals": 12,
-        "assists": 1
-      },
-      {
-        "player_name": "Hee-chan Hwang",
-        "team": "Wolverhampton Wanderers",
-        "goals": 12,
-        "assists": 1
-      },
-      {
-        "player_name": "Matheus Cunha",
-        "team": "Wolverhampton Wanderers",
-        "goals": 12,
-        "assists": 1
-      },
-      {
-        "player_name": "Leandro Trossard",
-        "team": "Arsenal",
-        "goals": 12,
-        "assists": 0
-      },
-      {
-        "player_name": "Chris Wood",
-        "team": "Nottingham Forest",
-        "goals": 12,
-        "assists": 0
-      },
-      {
-        "player_name": "Julián Álvarez",
-        "team": "Manchester City",
-        "goals": 11,
-        "assists": 2
-      },
-      {
-        "player_name": "Darwin Núñez",
-        "team": "Liverpool",
-        "goals": 11,
-        "assists": 0
-      },
-      {
-        "player_name": "Richarlison",
-        "team": "Tottenham Hotspur",
-        "goals": 11,
-        "assists": 0
-      }
-    ],
     "fixtures": [
-        {
-            "date": "01/02/2024",
-            "home_team": "West Ham United",
-            "away_team": "AFC Bournemouth",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "01/02/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Manchester United",
-            "home_score": 3,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "03/02/2024",
-            "home_team": "Brighton & Hove Albion",
-            "away_team": "Crystal Palace",
-            "home_score": 4,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "03/02/2024",
-            "home_team": "Burnley",
-            "away_team": "Fulham",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "03/02/2024",
-            "home_team": "Everton",
-            "away_team": "Tottenham Hotspur",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "03/02/2024",
-            "home_team": "Newcastle United",
-            "away_team": "Luton Town",
-            "home_score": 4,
-            "away_score": 4,
-            "outcome": "Tie"
-        },
-        {
-            "date": "03/02/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Aston Villa",
-            "home_score": 0,
-            "away_score": 5,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "04/02/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Nottingham Forest",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "04/02/2024",
-            "home_team": "Arsenal",
-            "away_team": "Liverpool",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "04/02/2024",
-            "home_team": "Chelsea",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 2,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "04/02/2024",
-            "home_team": "Manchester United",
-            "away_team": "West Ham United",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "05/02/2024",
-            "home_team": "Brentford",
-            "away_team": "Manchester City",
-            "home_score": 1,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Fulham",
-            "away_team": "AFC Bournemouth",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Liverpool",
-            "away_team": "Burnley",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Luton Town",
-            "away_team": "Sheffield United",
-            "home_score": 1,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Manchester City",
-            "away_team": "Everton",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Newcastle United",
-            "home_score": 2,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/02/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Brentford",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "11/02/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Manchester United",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "11/02/2024",
-            "home_team": "West Ham United",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 6,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "12/02/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "Chelsea",
-            "home_score": 1,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Brentford",
-            "away_team": "Liverpool",
-            "home_score": 1,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Burnley",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 5,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Fulham",
-            "away_team": "Aston Villa",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Manchester City",
-            "away_team": "Chelsea",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Newcastle United",
-            "away_team": "AFC Bournemouth",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "West Ham United",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "17/02/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "18/02/2024",
-            "home_team": "Luton Town",
-            "away_team": "Manchester United",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "18/02/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 0,
-            "away_score": 5,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "19/02/2024",
-            "home_team": "Everton",
-            "away_team": "Crystal Palace",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "20/02/2024",
-            "home_team": "Manchester City",
-            "away_team": "Brentford",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "21/02/2024",
-            "home_team": "Liverpool",
-            "away_team": "Luton Town",
-            "home_score": 4,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Manchester City",
-            "home_score": 0,
-            "away_score": 1,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "Arsenal",
-            "away_team": "Newcastle United",
-            "home_score": 4,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Nottingham Forest",
-            "home_score": 4,
-            "away_score": 2,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "Brighton & Hove Albion",
-            "away_team": "Everton",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "Burnley",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/02/2024",
-            "home_team": "Manchester United",
-            "away_team": "Fulham",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "25/02/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Sheffield United",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "26/02/2024",
-            "home_team": "West Ham United",
-            "away_team": "Brentford",
-            "home_score": 4,
-            "away_score": 2,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Brentford",
-            "away_team": "Chelsea",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Everton",
-            "away_team": "West Ham United",
-            "home_score": 1,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Fulham",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Luton Town",
-            "away_team": "Aston Villa",
-            "home_score": 2,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Newcastle United",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Liverpool",
-            "home_score": 0,
-            "away_score": 1,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "02/03/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Crystal Palace",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "03/03/2024",
-            "home_team": "Burnley",
-            "away_team": "AFC Bournemouth",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "03/03/2024",
-            "home_team": "Manchester City",
-            "away_team": "Manchester United",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "04/03/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 6,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "09/03/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Sheffield United",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "09/03/2024",
-            "home_team": "Arsenal",
-            "away_team": "Brentford",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "09/03/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "Luton Town",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "09/03/2024",
-            "home_team": "Manchester United",
-            "away_team": "Everton",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "09/03/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Fulham",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/03/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Tottenham Hotspur",
-            "home_score": 0,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "10/03/2024",
-            "home_team": "Brighton & Hove Albion",
-            "away_team": "Nottingham Forest",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "10/03/2024",
-            "home_team": "Liverpool",
-            "away_team": "Manchester City",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "10/03/2024",
-            "home_team": "West Ham United",
-            "away_team": "Burnley",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "11/03/2024",
-            "home_team": "Chelsea",
-            "away_team": "Newcastle United",
-            "home_score": 3,
-            "away_score": 2,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "13/03/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Luton Town",
-            "home_score": 4,
-            "away_score": 3,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "16/03/2024",
-            "home_team": "Burnley",
-            "away_team": "Brentford",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "16/03/2024",
-            "home_team": "Fulham",
-            "away_team": "Tottenham Hotspur",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "16/03/2024",
-            "home_team": "Luton Town",
-            "away_team": "Nottingham Forest",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "17/03/2024",
-            "home_team": "West Ham United",
-            "away_team": "Aston Villa",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Everton",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Brentford",
-            "away_team": "Manchester United",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Chelsea",
-            "away_team": "Burnley",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Newcastle United",
-            "away_team": "West Ham United",
-            "home_score": 4,
-            "away_score": 3,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Crystal Palace",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Fulham",
-            "home_score": 3,
-            "away_score": 3,
-            "outcome": "Tie"
-        },
-        {
-            "date": "30/03/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Luton Town",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "31/03/2024",
-            "home_team": "Liverpool",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "31/03/2024",
-            "home_team": "Manchester City",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 0,
-            "outcome": "Tie"
-        },
-        {
-            "date": "02/04/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Crystal Palace",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "02/04/2024",
-            "home_team": "Burnley",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "02/04/2024",
-            "home_team": "Newcastle United",
-            "away_team": "Everton",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "02/04/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Fulham",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "02/04/2024",
-            "home_team": "West Ham United",
-            "away_team": "Tottenham Hotspur",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "03/04/2024",
-            "home_team": "Arsenal",
-            "away_team": "Luton Town",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "03/04/2024",
-            "home_team": "Brentford",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 0,
-            "away_score": 0,
-            "outcome": "Tie"
-        },
-        {
-            "date": "03/04/2024",
-            "home_team": "Manchester City",
-            "away_team": "Aston Villa",
-            "home_score": 4,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "04/04/2024",
-            "home_team": "Chelsea",
-            "away_team": "Manchester United",
-            "home_score": 4,
-            "away_score": 3,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "04/04/2024",
-            "home_team": "Liverpool",
-            "away_team": "Sheffield United",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Brentford",
-            "home_score": 3,
-            "away_score": 3,
-            "outcome": "Tie"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Brighton & Hove Albion",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "Manchester City",
-            "home_score": 2,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Everton",
-            "away_team": "Burnley",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Fulham",
-            "away_team": "Newcastle United",
-            "home_score": 0,
-            "away_score": 1,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Luton Town",
-            "away_team": "AFC Bournemouth",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "06/04/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "West Ham United",
-            "home_score": 1,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "07/04/2024",
-            "home_team": "Manchester United",
-            "away_team": "Liverpool",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "07/04/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Chelsea",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "07/04/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Nottingham Forest",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Manchester United",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "Brentford",
-            "away_team": "Sheffield United",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "Burnley",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "Manchester City",
-            "away_team": "Luton Town",
-            "home_score": 5,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "Newcastle United",
-            "away_team": "Tottenham Hotspur",
-            "home_score": 4,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "13/04/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Wolverhampton Wanderers",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "14/04/2024",
-            "home_team": "Arsenal",
-            "away_team": "Aston Villa",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "14/04/2024",
-            "home_team": "Liverpool",
-            "away_team": "Crystal Palace",
-            "home_score": 0,
-            "away_score": 1,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "14/04/2024",
-            "home_team": "West Ham United",
-            "away_team": "Fulham",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "15/04/2024",
-            "home_team": "Chelsea",
-            "away_team": "Everton",
-            "home_score": 6,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "20/04/2024",
-            "home_team": "Luton Town",
-            "away_team": "Brentford",
-            "home_score": 1,
-            "away_score": 5,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "20/04/2024",
-            "home_team": "Sheffield United",
-            "away_team": "Burnley",
-            "home_score": 1,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "20/04/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Arsenal",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "21/04/2024",
-            "home_team": "Aston Villa",
-            "away_team": "AFC Bournemouth",
-            "home_score": 3,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "21/04/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "West Ham United",
-            "home_score": 5,
-            "away_score": 2,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "21/04/2024",
-            "home_team": "Everton",
-            "away_team": "Nottingham Forest",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "21/04/2024",
-            "home_team": "Fulham",
-            "away_team": "Liverpool",
-            "home_score": 1,
-            "away_score": 3,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "23/04/2024",
-            "home_team": "Arsenal",
-            "away_team": "Chelsea",
-            "home_score": 5,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/04/2024",
-            "home_team": "Crystal Palace",
-            "away_team": "Newcastle United",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/04/2024",
-            "home_team": "Everton",
-            "away_team": "Liverpool",
-            "home_score": 2,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/04/2024",
-            "home_team": "Manchester United",
-            "away_team": "Sheffield United",
-            "home_score": 4,
-            "away_score": 2,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "24/04/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "AFC Bournemouth",
-            "home_score": 0,
-            "away_score": 1,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "25/04/2024",
-            "home_team": "Brighton & Hove Albion",
-            "away_team": "Manchester City",
-            "home_score": 0,
-            "away_score": 4,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Aston Villa",
-            "away_team": "Chelsea",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Everton",
-            "away_team": "Brentford",
-            "home_score": 1,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Fulham",
-            "away_team": "Crystal Palace",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Manchester United",
-            "away_team": "Burnley",
-            "home_score": 1,
-            "away_score": 1,
-            "outcome": "Tie"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Newcastle United",
-            "away_team": "Sheffield United",
-            "home_score": 5,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "West Ham United",
-            "away_team": "Liverpool",
-            "home_score": 2,
-            "away_score": 2,
-            "outcome": "Tie"
-        },
-        {
-            "date": "27/04/2024",
-            "home_team": "Wolverhampton Wanderers",
-            "away_team": "Luton Town",
-            "home_score": 2,
-            "away_score": 1,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "28/04/2024",
-            "home_team": "AFC Bournemouth",
-            "away_team": "Brighton & Hove Albion",
-            "home_score": 3,
-            "away_score": 0,
-            "outcome": "Home Win"
-        },
-        {
-            "date": "28/04/2024",
-            "home_team": "Nottingham Forest",
-            "away_team": "Manchester City",
-            "home_score": 0,
-            "away_score": 2,
-            "outcome": "Away Win"
-        },
-        {
-            "date": "28/04/2024",
-            "home_team": "Tottenham Hotspur",
-            "away_team": "Arsenal",
-            "home_score": 2,
-            "away_score": 3,
-            "outcome": "Away Win"
-        }
+      {
+        "date": "01-01-2024",
+        "home_team": "Liverpool",
+        "away_team": "Newcastle United",
+        "home_score": 4,
+        "away_score": 2,
+        "home_goals": ["Mohamed Salah", "Mohamed Salah", "Curtis Jones", "Cody Gakpo"],
+        "away_goals": ["Alexander Isak", "Sven Botman"]
+      },
+      {
+        "date": "02-01-2024",
+        "home_team": "West Ham United",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 0,
+        "away_score": 0,
+        "home_goals": [],
+        "away_goals": []
+      },
+      {
+        "date": "12-01-2024",
+        "home_team": "Burnley",
+        "away_team": "Luton Town",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Zeki Amdouni"],
+        "away_goals": ["Carlton Morris"]
+      },
+      {
+        "date": "13-01-2024",
+        "home_team": "Chelsea",
+        "away_team": "Fulham",
+        "home_score": 1,
+        "away_score": 0,
+        "home_goals": ["Cole Palmer"],
+        "away_goals": []
+      },
+      {
+        "date": "13-01-2024",
+        "home_team": "Newcastle United",
+        "away_team": "Manchester City",
+        "home_score": 2,
+        "away_score": 3,
+        "home_goals": ["Alexander Isak", "Anthony Gordon"],
+        "away_goals": ["Bernardo Silva", "Kevin De Bruyne", "Oscar Bobb"]
+      },
+      {
+        "date": "14-01-2024",
+        "home_team": "Everton",
+        "away_team": "Aston Villa",
+        "home_score": 0,
+        "away_score": 0,
+        "home_goals": [],
+        "away_goals": []
+      },
+      {
+        "date": "14-01-2024",
+        "home_team": "Manchester United",
+        "away_team": "Tottenham Hotspur",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Rasmus Winther Højlund", "Marcus Rashford"],
+        "away_goals": ["Richarlison", "Rodrigo Bentancur"]
+      },
+      {
+        "date": "20-01-2024",
+        "home_team": "Arsenal",
+        "away_team": "Crystal Palace",
+        "home_score": 5,
+        "away_score": 0,
+        "home_goals": ["Gabriel Magalhães", "Gabriel Magalhães", "Leandro Trossard", "Gabriel Martinelli", "Gabriel Martinelli"],
+        "away_goals": []
+      },
+      {
+        "date": "20-01-2024",
+        "home_team": "Brentford",
+        "away_team": "Nottingham Forest",
+        "home_score": 3,
+        "away_score": 2,
+        "home_goals": ["Ivan Toney", "Ben Mee", "Neal Maupay"],
+        "away_goals": ["Danilo", "Chris Wood"]
+      },
+      {
+        "date": "21-01-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Liverpool",
+        "home_score": 0,
+        "away_score": 4,
+        "home_goals": [],
+        "away_goals": ["Darwin Núñez", "Darwin Núñez", "Diogo Jota", "Diogo Jota"]
+      },
+      {
+        "date": "21-01-2024",
+        "home_team": "Sheffield United",
+        "away_team": "West Ham United",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Ben Brereton", "Oliver McBurnie"],
+        "away_goals": ["Maxwel Cornet", "James Ward-Prowse"]
+      },
+      {
+        "date": "22-01-2024",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Wolverhampton Wanderers",
+        "home_score": 0,
+        "away_score": 0,
+        "home_goals": [],
+        "away_goals": []
+      },
+      {
+        "date": "30-01-2024",
+        "home_team": "Aston Villa",
+        "away_team": "Newcastle United",
+        "home_score": 1,
+        "away_score": 3,
+        "home_goals": ["Ollie Watkins"],
+        "away_goals": ["Fabian Schar", "Fabian Schar", "Jacob Murphy"]
+      },
+      {
+        "date": "30-01-2024",
+        "home_team": "Crystal Palace",
+        "away_team": "Sheffield United",
+        "home_score": 3,
+        "away_score": 2,
+        "home_goals": ["Eberechi Eze", "Eberechi Eze", "Michael Olise"],
+        "away_goals": ["Ben Brereton", "James McAtee"]
+      },
+      {
+        "date": "30-01-2024",
+        "home_team": "Fulham",
+        "away_team": "Everton",
+        "home_score": 0,
+        "away_score": 0,
+        "home_goals": [],
+        "away_goals": []
+      },
+      {
+        "date": "30-01-2024",
+        "home_team": "Luton Town",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 4,
+        "away_score": 0,
+        "home_goals": ["Elijah Adebayo", "Elijah Adebayo", "Elijah Adebayo", "Chiedozie Ogbene"],
+        "away_goals": []
+      },
+      {
+        "date": "30-01-2024",
+        "home_team": "Nottingham Forest",
+        "away_team": "Arsenal",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Taiwo Awoniyi"],
+        "away_goals": ["Gabriel Jesus", "Bukayo Saka"]
+      },
+      {
+        "date": "31-01-2024",
+        "home_team": "Liverpool",
+        "away_team": "Chelsea",
+        "home_score": 4,
+        "away_score": 1,
+        "home_goals": ["Diogo Jota", "Conor Bradley", "Dominik Szoboszlai", "Luis Diaz"],
+        "away_goals": ["Christopher Nkunku"]
+      },
+      {
+        "date": "31-01-2024",
+        "home_team": "Manchester City",
+        "away_team": "Burnley",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Julian Alvarez", "Julian Alvarez", "Rodri"],
+        "away_goals": ["Ameen Al Dakhil"]
+      },
+      {
+        "date": "31-01-2024",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Brentford",
+        "home_score": 3,
+        "away_score": 2,
+        "home_goals": ["Destiny Udogie", "Brennan Johnson", "Richarlison"],
+        "away_goals": ["Neal Maupay", "Ivan Toney"]
+      },
+      {
+        "date": "01-02-2024",
+        "home_team": "West Ham United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["James Ward-Prowse"],
+        "away_goals": ["Dominic Solanke"]
+      },
+      {
+        "date": "01-02-2024",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Manchester United",
+        "home_score": 3,
+        "away_score": 4,
+        "home_goals": ["Pablo Sarabia", "Max Kilman", "Pedro Neto"],
+        "away_goals": ["Marcus Rashford", "Rasmus Winther Højlund", "Scott McTominay", "Kobbie Mainoo"]
+      },
+      {
+        "date": "03-02-2024",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Crystal Palace",
+        "home_score": 4,
+        "away_score": 1,
+        "home_goals": ["Lewis Dunk", "Jack Hinshelwood", "Facundo Buonanotte", "João Pedro"],
+        "away_goals": ["Jean-Philippe Mateta"]
+      },
+      {
+        "date": "03-02-2024",
+        "home_team": "Burnley",
+        "away_team": "Fulham",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["David Datro Fofana", "David Datro Fofana"],
+        "away_goals": ["João Palhinha", "Rodrigo Muniz"]
+      },
+      {
+        "date": "03-02-2024",
+        "home_team": "Everton",
+        "away_team": "Tottenham Hotspur",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Dominic Calvert-Lewin", "Jarrad Branthwaite"],
+        "away_goals": ["Richarlison", "Richarlison"]
+      },
+      {
+        "date": "03-02-2024",
+        "home_team": "Newcastle United",
+        "away_team": "Luton Town",
+        "home_score": 4,
+        "away_score": 4,
+        "home_goals": ["Sean Longstaff", "Sean Longstaff", "Kieran Trippier", "Harvey Barnes"],
+        "away_goals": ["Gabriel Osho", "Ross Barkley", "Carlton Morris", "Elijah Adebayo"]
+      },
+      {
+        "date": "03-02-2024",
+        "home_team": "Sheffield United",
+        "away_team": "Aston Villa",
+        "home_score": 0,
+        "away_score": 5,
+        "home_goals": [],
+        "away_goals": ["John McGinn", "Ollie Watkins", "Leon Bailey", "Youri Tielemans", "Álex Moreno"]
+      },
+      {
+        "date": "04-02-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Nottingham Forest",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Justin Kluivert"],
+        "away_goals": ["Callum Hudson-Odoi"]
+      },
+      {
+        "date": "04-02-2024",
+        "home_team": "Arsenal",
+        "away_team": "Liverpool",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Bukayo Saka", "Gabriel Martinelli", "Leandro Trossard"],
+        "away_goals": ["Gabriel Magalhães"]
+      },
+      {
+        "date": "04-02-2024",
+        "home_team": "Chelsea",
+        "away_team": "Wolverhampton Wanderers",
+        "home_score": 2,
+        "away_score": 4,
+        "home_goals": ["Cole Palmer", "Thiago Silva"],
+        "away_goals": ["Matheus Cunha", "Matheus Cunha", "Matheus Cunha", "Pablo Sarabia"]
+      },
+      {
+        "date": "04-02-2024",
+        "home_team": "Manchester United",
+        "away_team": "West Ham United",
+        "home_score": 3,
+        "away_score": 0,
+        "home_goals": ["Rasmus Winther Højlund", "Alejandro Garnacho", "Alejandro Garnacho"],
+        "away_goals": []
+      },
+      {
+        "date": "05-02-2024",
+        "home_team": "Brentford",
+        "away_team": "Manchester City",
+        "home_score": 1,
+        "away_score": 3,
+        "home_goals": ["Neal Maupay"],
+        "away_goals": ["Phil Foden", "Phil Foden", "Phil Foden"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Fulham",
+        "away_team": "AFC Bournemouth",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Bobby De Cordova-Reid", "Rodrigo Muniz", "Rodrigo Muniz"],
+        "away_goals": ["Marcos Senesi"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Liverpool",
+        "away_team": "Burnley",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Diogo Jota", "Luis Diaz", "Darwin Núñez"],
+        "away_goals": ["Dara O'Shea"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Luton Town",
+        "away_team": "Sheffield United",
+        "home_score": 1,
+        "away_score": 3,
+        "home_goals": ["Carlton Morris"],
+        "away_goals": ["Cameron Archer", "James McAtee", "Gustavo De Souza Costa"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Manchester City",
+        "away_team": "Everton",
+        "home_score": 2,
+        "away_score": 0,
+        "home_goals": ["Erling Braut Haaland", "Erling Braut Haaland"],
+        "away_goals": []
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Nottingham Forest",
+        "away_team": "Newcastle United",
+        "home_score": 2,
+        "away_score": 3,
+        "home_goals": ["Anthony Elanga", "Callum Hudson-Odoi"],
+        "away_goals": ["Bruno Guimaraes", "Bruno Guimaraes", "Fabian Schar"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Pape Matar Sarr", "Brennan Johnson"],
+        "away_goals": ["Pascal Groß"]
+      },
+      {
+        "date": "10-02-2024",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Brentford",
+        "home_score": 0,
+        "away_score": 2,
+        "home_goals": [],
+        "away_goals": ["Christian Nørgaard", "Ivan Toney"]
+      },
+      {
+        "date": "11-02-2024",
+        "home_team": "Aston Villa",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Douglas Luiz"],
+        "away_goals": ["Rasmus Winther Højlund", "Scott McTominay"]
+      },
+      {
+        "date": "11-02-2024",
+        "home_team": "West Ham United",
+        "away_team": "Arsenal",
+        "home_score": 0,
+        "away_score": 6,
+        "home_goals": [],
+        "away_goals": ["William Saliba", "Bukayo Saka", "Bukayo Saka", "Gabriel Magalhães", "Leandro Trossard", "Declan Rice"]
+      },
+      {
+        "date": "12-02-2024",
+        "home_team": "Crystal Palace",
+        "away_team": "Chelsea",
+        "home_score": 1,
+        "away_score": 3,
+        "home_goals": ["Jefferson Lerma"],
+        "away_goals": ["Conor Gallagher", "Conor Gallagher", "Enzo Fernandez"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Brentford",
+        "away_team": "Liverpool",
+        "home_score": 1,
+        "away_score": 4,
+        "home_goals": ["Ivan Toney"],
+        "away_goals": ["Darwin Núñez", "Alexis Mac Allister", "Mohamed Salah", "Cody Gakpo"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Burnley",
+        "away_team": "Arsenal",
+        "home_score": 0,
+        "away_score": 5,
+        "home_goals": [],
+        "away_goals": ["Martin Ødegaard", "Bukayo Saka", "Bukayo Saka", "Leandro Trossard", "Kai Havertz"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Fulham",
+        "away_team": "Aston Villa",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Rodrigo Muniz"],
+        "away_goals": ["Ollie Watkins", "Ollie Watkins"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Manchester City",
+        "away_team": "Chelsea",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Rodri"],
+        "away_goals": ["Raheem Sterling"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Newcastle United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Anthony Gordon", "Matt Ritchie"],
+        "away_goals": ["Dominic Solanke", "Antoine Semenyo"]
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Nottingham Forest",
+        "away_team": "West Ham United",
+        "home_score": 2,
+        "away_score": 0,
+        "home_goals": ["Taiwo Awoniyi"],
+        "away_goals": []
+      },
+      {
+        "date": "17-02-2024",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Wolverhampton Wanderers",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Dejan Kulusevski"],
+        "away_goals": ["Joao Gomes", "Joao Gomes"]
+      },
+      {
+        "date": "18-02-2024",
+        "home_team": "Luton Town",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Carlton Morris"],
+        "away_goals": ["Rasmus Winther Højlund", "Rasmus Winther Højlund"]
+      },
+      {
+        "date": "18-02-2024",
+        "home_team": "Sheffield United",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 0,
+        "away_score": 5,
+        "home_goals": [],
+        "away_goals": ["Facundo Buonanotte", "Danny Welbeck", "Jack Robinson", "Simon Adingra", "Simon Adingra"]
+      },
+      {
+        "date": "19-02-2024",
+        "home_team": "Everton",
+        "away_team": "Crystal Palace",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Amadou Onana"],
+        "away_goals": ["Jordan Ayew"]
+      },
+      {
+        "date": "20-02-2024",
+        "home_team": "Manchester City",
+        "away_team": "Brentford",
+        "home_score": 1,
+        "away_score": 0,
+        "home_goals": ["Erling Braut Haaland"],
+        "away_goals": []
+      },
+      {
+        "date": "21-02-2024",
+        "home_team": "Liverpool",
+        "away_team": "Luton Town",
+        "home_score": 4,
+        "away_score": 1,
+        "home_goals": ["Virgil van Dijk", "Cody Gakpo", "Luis Diaz", "Harvey Elliott"],
+        "away_goals": ["Chiedozie Ogbene"]
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester City",
+        "home_score": 0,
+        "away_score": 1,
+        "home_goals": [],
+        "away_goals": ["Phil Foden"]
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "Arsenal",
+        "away_team": "Newcastle United",
+        "home_score": 4,
+        "away_score": 1,
+        "home_goals": ["Gabriel Magalhães", "Kai Havertz", "Bukayo Saka", "Jakub Kiwior"],
+        "away_goals": ["Joe Willock"]
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "Aston Villa",
+        "away_team": "Nottingham Forest",
+        "home_score": 4,
+        "away_score": 2,
+        "home_goals": ["Ollie Watkins", "Douglas Luiz", "Douglas Luiz", "Leon Bailey"],
+        "away_goals": ["Moussa Niakhate", "Morgan Gibbs-White"]
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Everton",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Lewis Dunk"],
+        "away_goals": ["Jarrad Branthwaite"]
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "Crystal Palace",
+        "away_team": "Burnley",
+        "home_score": 3,
+        "away_score": 0,
+        "home_goals": ["Chris Richards", "Jordan Ayew", "Jean-Philippe Mateta"],
+        "away_goals": []
+      },
+      {
+        "date": "24-02-2024",
+        "home_team": "Manchester United",
+        "away_team": "Fulham",
+        "home_score": 1,
+        "away_score": 2,
+        "home_goals": ["Harry Maguire"],
+        "away_goals": ["Calvin Bassey", "Alex Iwobi"]
+      },
+      {
+        "date": "25-02-2024",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Sheffield United",
+        "home_score": 1,
+        "away_score": 0,
+        "home_goals": ["Pablo Sarabia"],
+        "away_goals": []
+      },
+      {
+        "date": "26-02-2024",
+        "home_team": "West Ham United",
+        "away_team": "Brentford",
+        "home_score": 4,
+        "away_score": 2,
+        "home_goals": ["Jarrod Bowen", "Jarrod Bowen", "Jarrod Bowen", "Emerson Palmieri"],
+        "away_goals": ["Neal Maupay", "Yoane Wissa"]
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Brentford",
+        "away_team": "Chelsea",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Mads Roerslev Rasmussen", "Yoane Wissa"],
+        "away_goals": ["Nicolas Jackson", "Axel Disasi"]
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Everton",
+        "away_team": "West Ham United",
+        "home_score": 1,
+        "away_score": 3,
+        "home_goals": ["Beto"],
+        "away_goals": ["Kurt Zouma", "Tomas Soucek", "Edson Alvarez"]
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Fulham",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 3,
+        "away_score": 0,
+        "home_goals": ["Harry Wilson", "Rodrigo Muniz", "Adama Traore"],
+        "away_goals": []
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Luton Town",
+        "away_team": "Aston Villa",
+        "home_score": 2,
+        "away_score": 3,
+        "home_goals": ["Tahith Chong", "Carlton Morris"],
+        "away_goals": ["Ollie Watkins", "Ollie Watkins", "Lucas Digne"]
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Newcastle United",
+        "away_team": "Wolverhampton Wanderers",
+        "home_score": 3,
+        "away_score": 0,
+        "home_goals": ["Alexander Isak", "Anthony Gordon", "Tino Livramento"],
+        "away_goals": []
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Nottingham Forest",
+        "away_team": "Liverpool",
+        "home_score": 0,
+        "away_score": 1,
+        "home_goals": [],
+        "away_goals": ["Darwin Núñez"]
+      },
+      {
+        "date": "02-03-2024",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Crystal Palace",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Timo Werner", "Cristian Romero", "Heung-Min Son"],
+        "away_goals": ["Eberechi Eze"]
+      },
+      {
+        "date": "03-03-2024",
+        "home_team": "Burnley",
+        "away_team": "AFC Bournemouth",
+        "home_score": 0,
+        "away_score": 2,
+        "home_goals": [],
+        "away_goals": ["Justin Kluivert", "Antoine Semenyo"]
+      },
+      {
+        "date": "03-03-2024",
+        "home_team": "Manchester City",
+        "away_team": "Manchester United",
+        "home_score": 3,
+        "away_score": 1,
+        "home_goals": ["Phil Foden", "Phil Foden", "Erling Braut Haaland"],
+        "away_goals": ["Marcus Rashford"]
+      },
+      {
+        "date": "04-03-2024",
+        "home_team": "Sheffield United",
+        "away_team": "Arsenal",
+        "home_score": 0,
+        "away_score": 6,
+        "home_goals": [],
+        "away_goals": ["Martin Ødegaard", "Jayden Bogle", "Gabriel Martinelli", "Kai Havertz", "Declan Rice", "Ben White"]
+      },
+      {
+        "date": "09-03-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Sheffield United",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Dango Ouattara", "Enes Unal"],
+        "away_goals": ["Gustavo Hamer", "Jack Robinson"]
+      },
+      {
+        "date": "09-03-2024",
+        "home_team": "Arsenal",
+        "away_team": "Brentford",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Declan Rice", "Kai Havertz"],
+        "away_goals": ["Yoane Wissa"]
+      },
+      {
+        "date": "09-03-2024",
+        "home_team": "Crystal Palace",
+        "away_team": "Luton Town",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Jean-Philippe Mateta"],
+        "away_goals": ["Cauley Woodrow"]
+      },
+      {
+        "date": "09-03-2024",
+        "home_team": "Manchester United",
+        "away_team": "Everton",
+        "home_score": 2,
+        "away_score": 0,
+        "home_goals": ["Bruno Fernandes", "Marcus Rashford"],
+        "away_goals": []
+      },
+      {
+        "date": "09-03-2024",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Fulham",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Rayan Aït Nouri", "Nelson Semedo"],
+        "away_goals": ["Alex Iwobi"]
+      },
+      {
+        "date": "10-03-2024",
+        "home_team": "Aston Villa",
+        "away_team": "Tottenham Hotspur",
+        "home_score": 0,
+        "away_score": 4,
+        "home_goals": [],
+        "away_goals": ["James Maddison", "Brennan Johnson", "Heung-Min Son", "Timo Werner"]
+      },
+      {
+        "date": "10-03-2024",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Nottingham Forest",
+        "home_score": 1,
+        "away_score": 0,
+        "home_goals": ["Andrew Omobamidele"],
+        "away_goals": []
+      },
+      {
+        "date": "10-03-2024",
+        "home_team": "Liverpool",
+        "away_team": "Manchester City",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Alexis Mac Allister"],
+        "away_goals": ["John Stones"]
+      },
+      {
+        "date": "10-03-2024",
+        "home_team": "West Ham United",
+        "away_team": "Burnley",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Lucas Paqueta", "Danny Ings"],
+        "away_goals": ["David Datro Fofana", "Konstantinos Mavropanos"]
+      },
+      {
+        "date": "11-03-2024",
+        "home_team": "Chelsea",
+        "away_team": "Newcastle United",
+        "home_score": 3,
+        "away_score": 2,
+        "home_goals": ["Nicolas Jackson", "Cole Palmer", "Mykhailo Mudryk"],
+        "away_goals": ["Alexander Isak", "Jacob Murphy"]
+      },
+      {
+        "date": "13-03-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Luton Town",
+        "home_score": 4,
+        "away_score": 3,
+        "home_goals": ["Dominic Solanke", "Antoine Semenyo", "Antoine Semenyo", "Antoine Semenyo"],
+        "away_goals": ["Tahith Chong", "Chiedozie Ogbene", "Ross Barkley"]
+      },
+      {
+        "date": "16-03-2024",
+        "home_team": "Burnley",
+        "away_team": "Brentford",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Jacob Bruun Larsen", "David Datro Fofana"],
+        "away_goals": ["Kristoffer Ajer"]
+      },
+      {
+        "date": "16-03-2024",
+        "home_team": "Fulham",
+        "away_team": "Tottenham Hotspur",
+        "home_score": 3,
+        "away_score": 0,
+        "home_goals": ["Rodrigo Muniz", "Rodrigo Muniz", "Sasa Lukic"],
+        "away_goals": []
+      },
+      {
+        "date": "16-03-2024",
+        "home_team": "Luton Town",
+        "away_team": "Nottingham Forest",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Luke Berry"],
+        "away_goals": ["Chris Wood"]
+      },
+      {
+        "date": "17-03-2024",
+        "home_team": "West Ham United",
+        "away_team": "Aston Villa",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Michail Antonio"],
+        "away_goals": ["Nicolo Zaniolo"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Everton",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Dominic Solanke", "Seamus Coleman"],
+        "away_goals": []
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Aston Villa",
+        "away_team": "Wolverhampton Wanderers",
+        "home_score": 2,
+        "away_score": 0,
+        "home_goals": ["Moussa Diaby", "Jhon Durán"],
+        "away_goals": []
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Brentford",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Kristoffer Ajer"],
+        "away_goals": ["Mason Mount"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Chelsea",
+        "away_team": "Burnley",
+        "home_score": 2,
+        "away_score": 2,
+        "home_goals": ["Cole Palmer", "Cole Palmer"],
+        "away_goals": ["Josh Cullen", "Dara O'Shea"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Newcastle United",
+        "away_team": "West Ham United",
+        "home_score": 4,
+        "away_score": 3,
+        "home_goals": ["Alexander Isak", "Alexander Isak", "Harvey Barnes", "Harvey Barnes"],
+        "away_goals": ["Michail Antonio", "Mohammed Kudus", "Jarrod Bowen"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Nottingham Forest",
+        "away_team": "Crystal Palace",
+        "home_score": 1,
+        "away_score": 1,
+        "home_goals": ["Chris Wood"],
+        "away_goals": ["Jean-Philippe Mateta"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Sheffield United",
+        "away_team": "Fulham",
+        "home_score": 3,
+        "away_score": 3,
+        "home_goals": ["Ben Brereton", "Ben Brereton", "Oliver McBurnie"],
+        "away_goals": ["João Palhinha", "Bobby De Cordova-Reid", "Rodrigo Muniz"]
+      },
+      {
+        "date": "30-03-2024",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Luton Town",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Issa Kaboré", "Heung-Min Son"],
+        "away_goals": ["Tahith Chong"]
+      },
+      {
+        "date": "31-03-2024",
+        "home_team": "Liverpool",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 1,
+        "home_goals": ["Luis Diaz", "Mohamed Salah"],
+        "away_goals": ["Danny Welbeck"]
+      },
+      {
+        "date": "31-03-2024",
+        "home_team": "Manchester City",
+        "away_team": "Arsenal",
+        "home_score": 0,
+        "away_score": 0,
+        "home_goals": [],
+        "away_goals": []
+      }
     ]
   }
   

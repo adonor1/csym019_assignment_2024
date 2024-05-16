@@ -1,69 +1,56 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "League",
+    "title": "Fixtures",
     "type": "object",
     "properties": {
-      "top_scorers": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "player_name": {
-              "type": "string",
-              "description": "Name of the player"
-            },
-            "team": {
-              "type": "string",
-              "description": "Team of the player"
-            },
-            "goals": {
-              "type": "integer",
-              "description": "Number of goals scored by the player"
-            },
-            "assists": {
-              "type": "integer",
-              "description": "Number of assists made by the player"
+        "fixtures": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "home_team": {
+                        "type": "string"
+                    },
+                    "away_team": {
+                        "type": "string"
+                    },
+                    "home_score": {
+                        "type": "integer"
+                    },
+                    "away_score": {
+                        "type": "integer"
+                    },
+                    "home_goals": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "away_goals": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": [
+                    "date",
+                    "home_team",
+                    "away_team",
+                    "home_score",
+                    "away_score",
+                    "home_goals",
+                    "away_goals"
+                ]
             }
-          },
-          "required": ["player_name", "team", "goals", "assists"]
         }
-      },
-      "fixtures": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "date": {
-              "type": "string",
-              "format": "date",
-              "description": "Date of the match in DD/MM/YYYY format"
-            },
-            "home_team": {
-              "type": "string",
-              "description": "Home team"
-            },
-            "away_team": {
-              "type": "string",
-              "description": "Away team"
-            },
-            "home_score": {
-              "type": "integer",
-              "description": "Score of the home team"
-            },
-            "away_score": {
-              "type": "integer",
-              "description": "Score of the away team"
-            },
-            "outcome": {
-              "type": "string",
-              "enum": ["home_win", "away_win", "draw", "Tie"],
-              "description": "Outcome of the match"
-            }
-          },
-          "required": ["date", "home_team", "away_team", "home_score", "away_score", "outcome"]
-        }
-      }
     },
-    "required": ["top_scorers", "fixtures"]
+    "required": [
+        "fixtures"
+    ]
   }
   
