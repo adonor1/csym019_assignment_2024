@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATCH INFORMATION UPLOAD</title>
     <link rel="stylesheet" href="design.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+    <script src="league.js"></script> <!-- Include the combined JavaScript -->
 </head>
 <body>
-    
     <div class="upload-container">
         <header style="background-color: yellow; color: black; padding: 10px; text-align: center; font-size: 24px; font-weight: bold;">
             BBC SPORT
         </header>
         <h2>MATCH INFORMATION UPLOAD</h2>
-        <form action="uploadform.php" method="post">
+        <form id="matchForm">
+            <input type="hidden" id="id" name="id">
             <div class="input-group">
                 <label for="match_date">Match Date:</label>
                 <input type="date" id="match_date" name="match_date" required>
@@ -40,6 +42,27 @@
             </div>
             <button type="submit">Submit</button>
         </form>
+    </div>
+
+    <div class="fixtures-list view-container">
+        <h2>Fixture Results</h2>
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Home Team</th>
+                        <th>Home Score</th>
+                        <th>Away Score</th>
+                        <th>Away Team</th>
+                        <th>Actions</th> <!-- Add Actions column header -->
+                    </tr>
+                </thead>
+                <tbody id="fixturesTbody">
+                    <!-- Fixtures will be populated here -->
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>

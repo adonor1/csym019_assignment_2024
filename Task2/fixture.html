@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="league.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Fixture Table</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+  <script src="league.js"></script> <!-- Include the combined JavaScript -->
+</head>
+<body>
+  <header>
+    <div class="title-bar">
+      <h1>BBC Sport</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="league.html">League Table</a></li>
+        <li><a href="topscorers.html">Top Scorers</a></li>
+        <li><a href="fixture.html">Fixtures</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="league_table">
+    <h2>Fixture Results</h2>
+    <div id="fixturesByMonth">
+      <table class="fixtures-table styled-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Home Team</th>
+            <th>Home Score</th>
+            <th>Away Score</th>
+            <th>Away Team</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="fixturesTbody">
+          <!-- Fixtures will be populated here -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

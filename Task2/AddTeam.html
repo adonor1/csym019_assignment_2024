@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Team</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+</head>
+<body>
+    <header>
+        <div class="title-bar">
+            
+        </div>
+        
+    </header>
+    <div class="upload-container">
+        <h2>Add New Team</h2>
+        <form id="addTeamForm">
+            <table>
+                <tr>
+                    <td><label for="manager_name">Manager Name:</label></td>
+                    <td><input type="text" id="manager_name" name="manager_name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="team_name">Team Name:</label></td>
+                    <td><input type="text" id="team_name" name="team_name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="played">Played:</label></td>
+                    <td><input type="number" id="played" name="played" required></td>
+                </tr>
+                <tr>
+                    <td><label for="won">Won:</label></td>
+                    <td><input type="number" id="won" name="won" required></td>
+                </tr>
+                <tr>
+                    <td><label for="drawn">Drawn:</label></td>
+                    <td><input type="number" id="drawn" name="drawn" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lost">Lost:</label></td>
+                    <td><input type="number" id="lost" name="lost" required></td>
+                </tr>
+                <tr>
+                    <td><label for="for">For:</label></td>
+                    <td><input type="number" id="for" name="for" required></td>
+                </tr>
+                <tr>
+                    <td><label for="against">Against:</label></td>
+                    <td><input type="number" id="against" name="against" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gd">GD:</label></td>
+                    <td><input type="number" id="gd" name="gd" required></td>
+                </tr>
+                <tr>
+                    <td><label for="points">Points:</label></td>
+                    <td><input type="number" id="points" name="points" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Add Team</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#addTeamForm').submit(function(e) {
+                e.preventDefault();
+
+                $.ajax({
+                    url: 'AddTeam.php',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.status === 'success') {
+                            alert(response.message);
+                            window.location.href = 'league.html'; // Redirect to league.html
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function() {
+                        alert("An error occurred while adding the team.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

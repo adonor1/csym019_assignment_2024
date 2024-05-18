@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="league.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <title>League Table</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+  <script src="league.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title-bar">
+      <h1>BBC Sport</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="league.html">League Table</a></li>
+        <li><a href="topscorers.html">Top Scorers</a></li>
+        <li><a href="fixture.html">Fixtures</a></li>
+        <li><a href="AddTeam.html">Add Team</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="league_table">
+    <h1 id="league-table">Premier League Table</h1>
+    <table class="pl-table">
+      <thead>
+        <tr>
+          <th><input type="checkbox" id="selectAll"></th>
+          <th>Position</th>
+          <th>Manager Name</th>
+          <th class="team">Team</th>
+          <th>Played</th>
+          <th>Won</th>
+          <th>Drawn</th>
+          <th>Lost</th>
+          <th>For</th>
+          <th>Against</th>
+          <th>GD</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody id="plTbody">
+        <!-- Table body content here -->
+      </tbody>
+    </table>
+    <div class="position_system">
+      <h3>Key</h3>
+      <ul>
+        <li>Position 1 - 4 : UEFA Champions League</li>
+        <li>Position 5 : UEFA Europa League</li>
+        <li>Position 18 - 20 : Relegation</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
