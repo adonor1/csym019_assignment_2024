@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATCH INFORMATION UPLOAD</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    
+    <div class="upload-container">
+        <header style="background-color: yellow; color: black; padding: 10px; text-align: center; font-size: 24px; font-weight: bold;">
+            BBC SPORT
+        </header>
+        <h2>MATCH INFORMATION UPLOAD</h2>
+        <form action="uploadform.php" method="post">
+            <div class="input-group">
+                <label for="match_date">Match Date:</label>
+                <input type="date" id="match_date" name="match_date" required>
+            </div>
+            <div class="input-group">
+                <label for="fixture">Fixture:</label>
+                <input type="text" id="fixture" name="fixture" required>
+            </div>
+            <div class="input-group">
+                <label for="home_team">Home Team:</label>
+                <input type="text" id="home_team" name="home_team" required>
+            </div>
+            <div class="input-group">
+                <label for="home_goal">Home Goal:</label>
+                <input type="number" id="home_goal" name="home_goal" required>
+            </div>
+            <div class="input-group">
+                <label for="away_team">Away Team:</label>
+                <input type="text" id="away_team" name="away_team" required>
+            </div>
+            <div class="input-group">
+                <label for="away_goal">Away Goal:</label>
+                <input type="number" id="away_goal" name="away_goal" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
