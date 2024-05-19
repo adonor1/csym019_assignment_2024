@@ -12,29 +12,26 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM LeagueTable ORDER BY points DESC";
+$sql = "SELECT id, match_date, fixture, home_team, home_goal, away_team, away_goal FROM fixtures";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "<tr>
-                <td><input type='checkbox' class='teamCheckbox'></td>
-                <td></td>
-                <td>" . $row["manager_name"] . "</td>
-                <td>" . $row["team_name"] . "</td>
-                <td>" . $row["played"] . "</td>
-                <td>" . $row["won"] . "</td>
-                <td>" . $row["drawn"] . "</td>
-                <td>" . $row["lost"] . "</td>
-                <td>" . $row["for"] . "</td>
-                <td>" . $row["against"] . "</td>
-                <td>" . $row["gd"] . "</td>
-                <td>" . $row["points"] . "</td>
-                <td>" . $row["form"] . "</td>
+        echo "<tr data-id='" . $row["id"] . "'>
+                <td class='match_date'>" . $row["match_date"] . "</td>
+                <td class='fixture'>" . $row["fixture"] . "</td>
+                <td class='home_team'>" . $row["home_team"] . "</td>
+                <td class='home_goal'>" . $row["home_goal"] . "</td>
+                <td class='away_team'>" . $row["away_team"] . "</td>
+                <td class='away_goal'>" . $row["away_goal"] . "</td>
+                <td>
+                    <button class='edit-btn'>Edit</button>
+                    <button class='delete-btn'>Delete</button>
+                </td>
               </tr>";
     }
 } else {
-    echo "<tr><td colspan='13'>No results found</td></tr>";
+    echo "<tr><td colspan='7'>No results found</td></tr>";
 }
 
 $conn->close();

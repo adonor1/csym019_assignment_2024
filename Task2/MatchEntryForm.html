@@ -3,66 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATCH INFORMATION UPLOAD</title>
+    <title>Match Information Upload</title>
     <link rel="stylesheet" href="design.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
-    <script src="league.js"></script> <!-- Include the combined JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="league.js"></script>
 </head>
 <body>
+    <header>
+        <div class="title-bar">
+            <h1>BBC Sport</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="MatchEntryForm.html">Match Entry</a></li>
+                <li><a href="league.html">League Table</a></li>
+                <li><a href="fixture.html">Fixtures</a></li>
+                <li><a href="AddTeam.html">Add Team</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="upload-container">
-        <header style="background-color: yellow; color: black; padding: 10px; text-align: center; font-size: 24px; font-weight: bold;">
-            BBC SPORT
-        </header>
-        <h2>MATCH INFORMATION UPLOAD</h2>
+        <h2>Match Information Upload</h2>
         <form id="matchForm">
-            <input type="hidden" id="id" name="id">
-            <div class="input-group">
-                <label for="match_date">Match Date:</label>
-                <input type="date" id="match_date" name="match_date" required>
-            </div>
-            <div class="input-group">
-                <label for="fixture">Fixture:</label>
-                <input type="text" id="fixture" name="fixture" required>
-            </div>
-            <div class="input-group">
-                <label for="home_team">Home Team:</label>
-                <input type="text" id="home_team" name="home_team" required>
-            </div>
-            <div class="input-group">
-                <label for="home_goal">Home Goal:</label>
-                <input type="number" id="home_goal" name="home_goal" required>
-            </div>
-            <div class="input-group">
-                <label for="away_team">Away Team:</label>
-                <input type="text" id="away_team" name="away_team" required>
-            </div>
-            <div class="input-group">
-                <label for="away_goal">Away Goal:</label>
-                <input type="number" id="away_goal" name="away_goal" required>
-            </div>
-            <button type="submit">Submit</button>
+            <table>
+                <tr>
+                    <td><label for="match_date">Match Date:</label></td>
+                    <td><input type="date" id="match_date" name="match_date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fixture">Fixture:</label></td>
+                    <td><input type="text" id="fixture" name="fixture" required></td>
+                </tr>
+                <tr>
+                    <td><label for="home_team">Home Team:</label></td>
+                    <td><input type="text" id="home_team" name="home_team" required></td>
+                </tr>
+                <tr>
+                    <td><label for="home_goal">Home Goal:</label></td>
+                    <td><input type="number" id="home_goal" name="home_goal" required></td>
+                </tr>
+                <tr>
+                    <td><label for="away_team">Away Team:</label></td>
+                    <td><input type="text" id="away_team" name="away_team" required></td>
+                </tr>
+                <tr>
+                    <td><label for="away_goal">Away Goal:</label></td>
+                    <td><input type="number" id="away_goal" name="away_goal" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Submit</button></td>
+                </tr>
+            </table>
         </form>
     </div>
-
-    <div class="fixtures-list view-container">
+    <div class="fixtures-list">
         <h2>Fixture Results</h2>
-        <div class="table-wrapper">
-            <table class="styled-table">
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Home Team</th>
-                        <th>Home Score</th>
-                        <th>Away Score</th>
-                        <th>Away Team</th>
-                        <th>Actions</th> <!-- Add Actions column header -->
-                    </tr>
-                </thead>
-                <tbody id="fixturesTbody">
-                    <!-- Fixtures will be populated here -->
-                </tbody>
-            </table>
-        </div>
+        <table class="fixtures-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Home Team</th>
+                    <th>Home Score</th>
+                    <th>Away Score</th>
+                    <th>Away Team</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="fixturesTbody">
+                <!-- Fixtures will be populated here -->
+            </tbody>
+        </table>
     </div>
 </body>
 </html>

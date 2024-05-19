@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
   <title>League Table</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
   <script src="league.js"></script>
 </head>
 <body>
@@ -18,8 +19,8 @@
     </div>
     <nav>
       <ul>
+        <li><a href="MatchEntryForm.html">Match Entry</a></li>
         <li><a href="league.html">League Table</a></li>
-        <li><a href="topscorers.html">Top Scorers</a></li>
         <li><a href="fixture.html">Fixtures</a></li>
         <li><a href="AddTeam.html">Add Team</a></li>
       </ul>
@@ -42,19 +43,17 @@
           <th>Against</th>
           <th>GD</th>
           <th>Points</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody id="plTbody">
         <!-- Table body content here -->
       </tbody>
     </table>
-    <div class="position_system">
-      <h3>Key</h3>
-      <ul>
-        <li>Position 1 - 4 : UEFA Champions League</li>
-        <li>Position 5 : UEFA Europa League</li>
-        <li>Position 18 - 20 : Relegation</li>
-      </ul>
+    <button id="createReportBtn" class="create-report-btn">Create Report</button>
+    <div id="reportSection">
+      <canvas id="pieChart"></canvas>
+      <canvas id="barChart"></canvas>
     </div>
   </main>
 </body>

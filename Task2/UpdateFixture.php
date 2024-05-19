@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $id = $_POST['id'];
     $match_date = $_POST['match_date'];
     $fixture = $_POST['fixture'];
     $home_team = $_POST['home_team'];
@@ -20,12 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $away_team = $_POST['away_team'];
     $away_goal = $_POST['away_goal'];
 
-    $sql = "INSERT INTO fixtures (match_date, fixture, home_team, home_goal, away_team, away_goal) VALUES ('$match_date', '$fixture', '$home_team', $home_goal, '$away_team', $away_goal)";
+    $sql = "UPDATE fixtures SET match_date='$match_date', fixture='$fixture', home_team='$home_team', home_goal=$home_goal, away_team='$away_team', away_goal=$away_goal WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        echo "Record updated successfully";
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error updating record: " . $conn->error;
     }
 }
 
