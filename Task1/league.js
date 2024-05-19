@@ -210,8 +210,8 @@ function formatForm(form) {
   }).join('');
 }
 
-// Fetch and populate data on page load and then every 3 seconds
+// Fetch and populate data on page load and then every 2 seconds
 $(document).ready(function() {
   fetchAndPopulateLeagueData();
-  setInterval(fetchAndPopulateLeagueData, 3000); // Fetch and update data every 3 seconds
+  setInterval(fetchAndPopulateLeagueData, 2000); // Fetch and update data every 2 seconds
 });

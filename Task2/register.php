@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare("INSERT INTO user (username, email, password) VALUES (?, ?, ?)");
         $stmt->execute([$username, $email, $hashedPassword]);
 
-        header("Location: registration_success.php");
+        header("Location: RegistrationSuccess.php");
         exit;
     } catch (PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
